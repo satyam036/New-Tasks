@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "time"
+import "time" #this import is an error as it has not been used
 
 func main() {
     cnp := make(chan func(), 10)
